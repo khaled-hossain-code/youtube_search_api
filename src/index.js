@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import {API_KEY} from './config/keys'; 
 import SearchBar from './components/SearchBar';
 
-const API_KEY = 'AIzaSyCHClV92Y6q2AhTK4SCMblX5uh-eVnjJr8'
 
 const App = () => {
   return(
